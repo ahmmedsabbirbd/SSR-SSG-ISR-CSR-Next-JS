@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/*** footer bottom */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+#__next {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
